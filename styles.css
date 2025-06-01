@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #f5f3f0;
+  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  color: #2d1e1e;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #5e4232, #4b2e2e);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  color: #b36a33;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #ffdab9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+  color: #b36a33;
+}
+
+section {
+  margin-bottom: 3rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #b36a33;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #99522a;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #b36a33;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #99522a;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e5e7eb;
+  color: #80685c;
+  font-size: 0.9rem;
+}
